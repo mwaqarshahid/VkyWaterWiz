@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vky's Water Wiz</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Vky's Water Wiz</h1>
+      <div class="input-group">
+        <input type="number" id="time" min="1" placeholder="Time" />
+        <select id="unit">
+          <option value="seconds">Seconds</option>
+          <option value="minutes">Minutes</option>
+          <option value="hours">Hours</option>
+        </select>
+      </div>
+      <div id="timer-container" style="display: none">
+        <div id="remaining-time"></div>
+      </div>
+      <div class="button-group">
+        <button id="save">Save</button>
+        <button id="reset">Reset</button>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
